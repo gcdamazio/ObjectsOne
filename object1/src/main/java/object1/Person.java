@@ -19,7 +19,8 @@ class Person {
         // Declare and initialize an object
         Person person1 = new Person("John", 30, 170);
         Person person2 = new Person("Bill", 34, 180);
-        System.out.println(person2);
+        System.out.println(person2.name);
+        System.out.println(person2.age);
         /* Now you can use the Object `person1` */
 
     }
